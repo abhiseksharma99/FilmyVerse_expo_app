@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+.env
 
 # Expo
 .expo/
@@ -16,21 +17,27 @@ web-build/
 *.p12
 *.key
 *.mobileprovision
+.env
 
 # Metro
 .metro-health-check*
+.env
 
 # debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+.env
 
 # macOS
 .DS_Store
 *.pem
+.env
 
 # local env files
+.env
 .env*.local
 
 # typescript
 *.tsbuildinfo
+.env
