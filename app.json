@@ -5,12 +5,12 @@
     "scheme": "RoughApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/eagle.jpg",
+    "icon": "./assets/eagleicon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/welcomePage.jpg",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splash.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "black"
     },
     "ios": {
       "supportsTablet": true
