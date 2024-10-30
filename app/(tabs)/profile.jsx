@@ -1,18 +1,15 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import UserIntro from '../../components/profile/UserIntro'
-import MenuList from '../../components/profile/MenuList'
+import UpperProfile from '../../components/UpperProfile'
+import LowerProfile from '../../components/LowerProfile'
 
-
-const profile = () => {
-
+const Profile = () => {
   return (
-    <View className='p-5'>
-      <Text style={{fontFamily:'outfit-bold',fontSize:35}}>profile</Text>
-      <UserIntro/>
-      <MenuList/>
+    <View className='bg-black flex-1 mt-[10%]'>
+      <UpperProfile/>
+      <LowerProfile/>
     </View>
   )
 }
 
-export default profile
+export default Profile
